@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F2F2F2">
+    <title>Country</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+        integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+        integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container-fluid">
+            <div class="row my-4">
+                <div class="col-xs-2 col-sm-4 col-md-9 col-lg-10">
+                    <div class="logo">
+                        <h1 class="site-heading">Where in the world? </h1>
+                    </div>
+                    </div>
+                    <div class="col-xs-10 col-sm-8 col-md-3 col-lg-2">
+                        <img src="images/Path.svg">
+                        <button onclick='dark()' class="light-dark-btn">Dark Mode</button>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="top_cont px-5">
+        <div class="row">
+            <div class="col-lg-10 col-6">
+                <div class="row">
+                    <div class="col-lg-1 col-1 my-3">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="col-lg-11 col-10">
+                        <nav class="navbar navbar-light">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search for"
+                                    aria-label="Search"
+                                    style="background-color: transparent; border: 1px solid transparent;">
+                            </form>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-xs-12 col-md-6">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Filter by Region
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Africa</a></li>
+                        <li><a class="dropdown-item" href="#">America</a></li>
+                        <li><a class="dropdown-item" href="#">Asia</a></li>
+                        <li><a class="dropdown-item" href="#">Europe</a></li>
+                        <li><a class="dropdown-item" href="#">Oceania</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="text">
+                    <img src="images/1280px-Flag_of_Germany.svg.png" alt="..." class="img-fluid" style="width:100vw;">
+                    <h1 class="p-3">Germany</h1>
+                    <h3 class="px-3">Population <span>81,770,900</span></h3>
+                    <h3 class="px-3">Region <span>Europe</span></h3>
+                    <h3 class="px-3">Capitan <span>Berlin</span></h3>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="text">
+                    <img src="images/1280px-Flag_of_Germany.svg (1).png" alt="..." class="img-fluid"
+                        style="width:100vw;">
+                    <h1 class="p-3">United States of America</h1>
+                    <h3 class="px-3">Population <span>323,947,000</span></h3>
+                    <h3 class="px-3">Region <span>Americas</span></h3>
+                    <h3 class="px-3">Capitan <span>Washington,D.C</span></h3>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="text">
+                    <img src="images/1280px-Flag_of_Germany.svg (2).png" alt="..." class="img-fluid"
+                        style="width:100vw;">
+                    <h1 class="p-3">Brazil</h1>
+                    <h3 class="px-3">Population <span>206,135,893</span></h3>
+                    <h3 class="px-3">Region <span>Americas</span></h3>
+                    <h3 class="px-3">Capitan <span>Brasilia</span></h3>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="text">
+                    <img src="images/1280px-Flag_of_Germany.svg (3).png" alt="..." class="img-fluid"
+                        style="width:100vw;">
+                    <h1 class="p-3">Iceland</h1>
+                    <h3 class="px-3">Population <span>334,300</span></h3>
+                    <h3 class="px-3">Region <span>Europe</span></h3>
+                    <h3 class="px-3">Capitan <span>Reykjavik</span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="text">
+                    <img src="images/1280px-Flag_of_Germany.svg (4).png" alt="..." class="img-fluid"
+                        style="width:100vw;">
+                    <h1 class="p-3">Afghanistan</h1>
+                    <h3 class="px-3">Population <span>27,657,145</span></h3>
+                    <h3 class="px-3">Region <span>Asia</span></h3>
+                    <h3 class="px-3">Capitan <span>Kabul</span></h3>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="text">
+                    <img src="images/1280px-Flag_of_Germany.svg (5).png" alt="..." class="img-fluid"
+                        style="width:100vw;">
+                    <h1 class="p-3">Aland Islands</h1>
+                    <h3 class="px-3">Population <span>28,875</span></h3>
+                    <h3 class="px-3">Region <span>Europe</span></h3>
+                    <h3 class="px-3">Capitan <span>Mariehamn</span></h3>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="text">
+                    <img src="images/1280px-Flag_of_Germany.svg (6).png" alt="..." class="img-fluid"
+                        style="width:100vw;">
+                    <h1 class="p-3">Albania</h1>
+                    <h3 class="px-3">Population <span>2,886,026</span></h3>
+                    <h3 class="px-3">Region <span>Europe</span></h3>
+                    <h3 class="px-3">Capitan <span>Tirana</span></h3>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-3">
+                <div class="text">
+                    <img src="images/1280px-Flag_of_Germany.svg (7).png" alt="..." class="img-fluid"
+                        style="width:100vw;">
+                    <h1 class="p-3">Algeria</h1>
+                    <h3 class="px-3">Population <span>40,400,000</span></h3>
+                    <h3 class="px-3">Region <span>Africa</span></h3>
+                    <h3 class="px-3">Capitan <span>Algiers</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
